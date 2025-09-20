@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+  background-image: linear-gradient(grey, lightgray);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-bottom: 10px;
+  display: block;
+  background-color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  height: auto;
+  width: 20%;
+  background-color: antiquewhite;
+  color: darkcyan;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#H2 {
+  margin: 12px;
+}
+
+button {
+  background-color: rgb(253, 184, 94);
+  display: inline;
+  border: none;
+  color: darkcyan;
+  margin: 3px;
+  max-width: fit-content;
+  padding: 0px;
+}
+
+form button {
+  padding: 5px;
+  border: 1px solid black;
+  background-color: gray;
+  color: black;
+  /* position: fixed;
+  bottom: 5px;
+  right: 5px; */
+}
+
+select {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.units {
+  border: 0px;
+  background-color: rgb(248, 188, 109);
+  border-bottom: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 7px;
+}
+
+#random-number {
+  display: contents;
+}
+
+table {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  /* height: auto;
+  width: auto; */
+  border-radius: 4px;
+}
+
+td {
+  border: 1.5px solid black;
+  text-align: center;
+  padding: 2px;
+  width: 80px;
+  height: auto;
+}
+
+thead {
+  text-align: center;
+  padding: 5px;
+  margin: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.selected {
+  background-color: #d3f9d8;
+  /* Highlight selected rows */
+}
+
+input {
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+form input {
+  border: 1px solid black;
+  margin: 9px;
+  background-color: transparent;
+  width: 80px;
+}
+
+.Login {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.Logout-Btn {
+  position: fixed;
+  top: 3px;
+  right: 7px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+#myBtn {
+  margin-left: 10px;
+}
+
+table input {
+  height: auto;
+  width: 80px;
+  text-align: center;
+  border: none;
+}
+
+p {
+  margin: 5px;
+}
+#pagination {
+  background-color: transparent;
+  border: none;
+}
+#pagination a {
+  color: black;
+  /* float: left; */
+  padding: 8px 16px;
+  text-decoration: none;
+  /* transition: background-color 0.3s; */
+}
+
+#pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.select-btn {
+  display: block;
+  text-align: center;
+  min-width: calc(100% + 4px);
+  min-height: 24px;
+  box-sizing: border-box; /* includes the 2px padding area */
+  margin: -2px;
+  padding: 0; /* optional: keeps button flush inside td */
+  border: none;
+}
